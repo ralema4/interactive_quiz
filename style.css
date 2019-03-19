@@ -1,0 +1,81 @@
+
+body {
+	font-family: 'Press Start 2P', cursive;
+	background: url("https://steamuserimages-a.akamaihd.net/ugc/842587034918019612/FFA99C866B4EA6BC93D1B9664083DEB6BA1E3386/");
+	background-size: auto;
+} 
+
+.container{
+	height: 330px;
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: rgb(188, 244, 245);
+	padding: 20px;
+	border: 1px solid #08038C;
+	box-shadow: 0 0 8px 3px #fff;
+}
+
+.title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #08038C;
+}
+
+.question{
+	padding: 20px;
+	font-size: 22px;
+	background: #08038C;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: #f6f6f6;
+}
+
+.option{
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background: rgb(188, 244, 245);
+	margin: 10px 0 10px 0;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.option:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.nxt-btn{
+	border: none;
+	outline: none;
+	background: rgb(188, 244, 245);
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+}
+
+.nxt-btn:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.result{
+	height: 200px;
+	text-align: center;
+	font-size: 75px;
+	background: url("https://78.media.tumblr.com/5670cfe270505127cfe23973b12aff02/tumblr_mtv8cieZCz1s9xty6o1_500.gif");
+}
+
+.option input:checked .option{
+	background: #08038C;
+	color: #000;
+}
