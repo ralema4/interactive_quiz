@@ -38,7 +38,7 @@ function loadNextQuestion () {
 	if(currentQuestion == totQuestions){
 		container.style.display = 'none';
 		resultCont.style.display = '';
-		resultCont.textContent = 'Your Score: ' + score;
+		resultCont.textContent = 'Your Score: ' + score + '/100';
 		return;
 	}
 	loadQuestion(currentQuestion);
